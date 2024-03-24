@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+
+    <title>Clínica Veterinária</title>
+    <style>
+        
+        nav {
+            text-align: center;
+            background-color: black;
+        }
+
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+        }
+
+        nav li {
+            display: inline-block;
+            margin-right: 10px;
+            vertical-align: middle;
+        }
+
+        nav li a {
+            display: block;
+            padding: 10px;
+            text-decoration: none;
+            color: white;
+        }
+
+        nav li input[type="text"] {
+            padding: 10px;
+            text-decoration: none;
+            color: black;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            vertical-align: middle;
+        }
+
+        nav li input[type="submit"] {
+            padding: 10px;
+            background-color: powderblue;
+            color: black;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            vertical-align: middle;
+        }
+
+        nav li input[type="submit"]:hover {
+            background-color: MediumTurquoise;
+        }
+
+        nav li a:hover {
+            background-color: powderblue;
+        }
+        
+        div.sobrenos {
+        width:100%;
+        overflow: hidden;
+        text-align: center;
+        }
+            div.sobrenos div {
+            width: 33%;  
+            float: inline-start;
+            font-size: 110%;
+            }
+
+        div.horario {
+        width:100%;
+        overflow: hidden;
+        text-align: center;
+        }
+            div.horario div {
+            width: 14%;  
+            float: left;
+            font-size: 115%;
+            }
+
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1 style="text-align:center; background-color:powderblue;">Clínica Veterinária</h1>
+        <img src="banner.jpg" alt="o banner do site" width="100%">
+    </header>
+    
+    <nav style="font-size: 200%;">
+        <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="servicos.html">Serviços</a></li>
+            <li><a href="nossosMedicos.html">Nossos Médicos</a></li>
+            <li><a href="avaliacoes.html">Avaliações</a></li>
+            <li><a href="contato.html">Contato</a></li>
+            <li>
+                <form action="#" method="GET" style="display: inline-block;">
+                    <input type="text" name="search" placeholder="Pesquisar serviços...">
+                    <input type="submit" value="Buscar">
+                </form>
+            </li>
+        </ul>
+    </nav>
+
+    <h1 style="text-align:center;"> Bem-vindo a nossa <u> Clínica Veterinária </u> </h1>
+    <hr>
+
+    <header>
+        <h1 style="text-align:center; background-color:powderblue; margin: 0;">Sobre Nós</h1>
+    </header>
+    
+    <hr>
+
+    <div class="sobrenos">
+            <div style="text-align: center;">
+            <h2>Quem Somos</h2>
+            <p>Somos apaixonados por cuidar dos seus animais de estimação. Na nossa clínica veterinária, dedicamos nosso tempo e experiência para garantir que seus amigos peludos recebam o melhor atendimento possível.</p>
+            </div>
+            
+            <div style="text-align: center;">
+            <h2>Nossa Missão</h2>
+            <p>Desde consultas de rotina até cirurgias complexas, estamos aqui para proporcionar o mais alto padrão de cuidado. Nossa equipe qualificada está sempre pronta para ajudar, proporcionando um ambiente acolhedor e familiar para você e seu animal de estimação.</p>
+            </div>  
+
+            <img src="sobrenos.jpg" alt="" width="33%">    
+    </div>
+
+    <hr>
+    
+    <header>
+        <h1 style="text-align:center; background-color:powderblue; margin: 0;">Horário de atendimento</h1>
+    </header>
+
+    <div class="horario" style="font-size: small;">
+        
+        <div>
+            <p><strong>Segunda-feira: </strong><br> 08:00 - 12:00 (Manhã)<br>  14:00 - 18:00 (Tarde) </p>
+        </div>   
+        <div> 
+            <p><strong>Terça-feira: </strong><br> 08:00 - 12:00 (Manhã)<br>  14:00 - 18:00 (Tarde) </p>
+        </div>
+        <div> 
+            <p><strong>Quarta-feira: </strong><br> 08:00 - 12:00 (Manhã)<br>  14:00 - 18:00 (Tarde) </p>
+        </div>
+        <div> 
+            <p><strong>Quinta-feira: </strong><br> 08:00 - 12:00 (Manhã)<br>  14:00 - 18:00 (Tarde) </p>
+        </div>
+        <div>
+            <p><strong>Sexta-feira: </strong><br> 08:00 - 12:00 (Manhã)<br>  14:00 - 18:00 (Tarde) </p>
+        </div>
+        <div> 
+            <p><strong>Sábado: </strong><br> 08:00 - 12:00 (Manhã)<br>  Fechado </p>
+        </div>
+        <div>
+            <p><strong>Domingo: </strong><br> Fechado</p>
+        </div>
+
+    </div>
+    
+    <hr>
+    
+    <footer>
+        <p>&copy; 2024 Clínica Veterinária. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>

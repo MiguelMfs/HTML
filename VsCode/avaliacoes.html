@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+
+    <title>Clínica Veterinária</title>
+    <style>
+        
+        nav {
+            text-align: center;
+            background-color: black;
+        }
+
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+        }
+
+        nav li {
+            display: inline-block;
+            margin-right: 10px;
+            vertical-align: middle;
+        }
+
+        nav li a {
+            display: block;
+            padding: 10px;
+            text-decoration: none;
+            color: white;
+        }
+
+        nav li input[type="text"] {
+            padding: 10px;
+            text-decoration: none;
+            color: black;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            vertical-align: middle;
+        }
+
+        nav li input[type="submit"] {
+            padding: 10px;
+            background-color: powderblue;
+            color: black;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            vertical-align: middle;
+        }
+
+        nav li input[type="submit"]:hover {
+            background-color: MediumTurquoise;
+        }
+
+        nav li a:hover {
+            background-color: powderblue;
+        }
+        
+        div.mycontainer {
+        width:100%;
+        overflow:auto;
+        }
+        div.mycontainer div {
+        width:33%;  
+        float:left;
+        }
+
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1 style="text-align:center; background-color:powderblue;">Clínica Veterinária</h1>
+        <img src="banner.jpg" alt="o banner do site" width="100%">
+    </header>
+    
+    <nav style="font-size: 200%;">
+        <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="servicos.html">Serviços</a></li>
+            <li><a href="nossosMedicos.html">Nossos Médicos</a></li>
+            <li><a href="avaliacoes.html">Avaliações</a></li>
+            <li><a href="contato.html">Contato</a></li>
+            <li>
+                <form action="#" method="GET" style="display: inline-block;">
+                    <input type="text" name="search" placeholder="Pesquisar serviços...">
+                    <input type="submit" value="Buscar">
+                </form>
+            </li>
+        </ul>
+    </nav>
+    <hr>
+
+    <header>
+        <h1 style="text-align:center; background-color:powderblue; margin: 0;">Avaliações</h1>
+    </header>
+    
+    <hr>
+
+    <footer>
+        <p>&copy; 2024 Clínica Veterinária. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+
+    <title>Clínica Veterinária</title>
+    <style>
+        
+        nav {
+            text-align: center;
+            background-color: black;
+        }
+
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+        }
+
+        nav li {
+            display: inline-block;
+            margin-right: 10px;
+            vertical-align: middle;
+        }
+
+        nav li a {
+            display: block;
+            padding: 10px;
+            text-decoration: none;
+            color: white;
+        }
+
+        nav li input[type="text"] {
+            padding: 10px;
+            text-decoration: none;
+            color: black;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            vertical-align: middle;
+        }
+
+        nav li input[type="submit"] {
+            padding: 10px;
+            background-color: powderblue;
+            color: black;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            vertical-align: middle;
+        }
+
+        nav li input[type="submit"]:hover {
+            background-color: MediumTurquoise;
+        }
+
+        nav li a:hover {
+            background-color: powderblue;
+        }
+        
+        div.servicos {
+        width:100%;
+        overflow:auto;
+        }
+            div.servicos div {
+            width:50%;  
+            float:left;
+            font-size: 183%;
+            }
+
+        div.beneficios {
+        width:100%;
+        overflow:auto;
+            }
+            div.beneficios div {
+            width:50%;  
+            float:right;
+            font-size: 158%;
+            }
+
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1 style="text-align:center; background-color:powderblue;">Clínica Veterinária</h1>
+        <img src="banner.jpg" alt="o banner do site" width="100%">
+    </header>
+    
+    <nav style="font-size: 200%;">
+        <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="servicos.html">Serviços</a></li>
+            <li><a href="nossosMedicos.html">Nossos Médicos</a></li>
+            <li><a href="avaliacoes.html">Avaliações</a></li>
+            <li><a href="contato.html">Contato</a></li>
+            <li>
+                <form action="#" method="GET" style="display: inline-block;">
+                    <input type="text" name="search" placeholder="Pesquisar serviços...">
+                    <input type="submit" value="Buscar">
+                </form>
+            </li>
+        </ul>
+    </nav>
+    
+    <hr>
+
+    <header>
+        <h1 style="text-align:center; background-color:powderblue; margin: 0;">Serviços Oferecidos</h1>
+    </header>
+
+    <hr>
+
+    <div class="servicos">
+        <div>
+            <ul>
+                <li>
+                    <strong>Consultas de pets convencionais e exóticos:</strong> Nossos veterinários experientes vão examinar seu pet com critério e cuidado.
+                    <ul>
+                        <li><small>Exóticos somente com agendamento prévio.</small></li>
+                    </ul>
+                <li>
+                    <strong>Cirurgias:</strong> Conte com um corpo clínico experiente e tecnologias de ponta para oferecer saúde e conforto para o seu pet.
+                </li>
+                <li>
+                    <strong>Vacinas Importadas:</strong> Vacinas de extrema qualidade para imunizar seu animal de estimação.
+                </li>
+                <li>
+                    <strong>Internamento:</strong> Conforto para o seu pet e comodidade para você, tutor.
+                </li>
+                <li>
+                    <strong>Raio X Digital:</strong> Tecnologia de ponta para auxiliar no diagnóstico do seu pet.
+                </li>
+            </ul>
+        </div>
+        <img src="servicos.jpg" alt="Uma consulta com animal exótico" width="50%">
+    </div>
+
+    <hr>
+
+    <header>
+        <h1 style="text-align:center; background-color:powderblue; margin: 0;">Benefícios por escolher a Nossa Clínica Veterinária</h1>
+    </header>
+
+    <hr>
+
+    <div class="beneficios">
+        <div>
+            <ol>
+                <li>Atendimento especializado e de qualidade para pets convencionais e exóticos.</li>
+                <li>Equipe experiente e dedicada para cuidar da saúde e do bem-estar do seu animal de estimação.</li>
+                <li>Ampla gama de serviços oferecidos, desde consultas até cirurgias e internamento.</li>
+                <li>Utilização de tecnologias de ponta, como raio X digital, para diagnósticos precisos.</li>
+                <li>Vacinas importadas de alta qualidade para garantir a imunização completa do seu pet.</li>
+                <li>Ambiente acolhedor e familiar, proporcionando conforto não só para os pets, mas também para seus tutores.</li>
+                <li>Horários flexíveis de atendimento, incluindo finais de semana.</li>
+                <li>Compromisso com a excelência e a satisfação dos clientes.</li>
+            </ol>
+        </div>
+        <img src="beneficio.jpg" alt="Um gatinho feliz" width="50%">
+    </div>
+
+    <hr>
+
+    <footer>
+        <p>&copy; 2024 Clínica Veterinária. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
